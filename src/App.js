@@ -13,9 +13,8 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div>
         <h1>Learn React</h1>
-        <header className="App-header" />
         <ul>
           {this.state.data.map(item => {
             console.log(item)
